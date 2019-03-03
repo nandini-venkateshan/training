@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+border:1px solid black;
+margin:200px 400px;
+padding:10px;
+}
+.header{
+    display: flex;
+}
+.name{
+    margin-right:100px;
+}
+.header:after{
+    display: block;
+    content: ' ';
+    background-color: black;
+    height: 1px;
+    margin: 50px;
+    width: 200px;
+}

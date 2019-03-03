@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px
+}
+main{
+    width:200px;
+    margin:200px 300px;
+    overflow:hidden;
+}
+section{
+    display:flex;
+    position:relative;
+    transition: all 2s;
+}
+div img{
+    width:200px;
+    height:300px;
+  /*   animation: slide 2s linear infinite; */
+    -webkit-overflow-scrolling: touch;
+}
+.fa-angle-left{
+font-size:40px;
+position:absolute;
+top:350px;
+left:250px;
+}
+.fa-angle-right{
+    font-size:40px;
+position:absolute;
+top:350px;
+left:550px;
+}

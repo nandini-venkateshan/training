@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display:flex;
+    margin:50px 10px 10px 100px;
+    
+}
+aside{
+    background-color: rgb(181, 181, 216);
+    padding:50px;
+    width: 40%;
+    
+}
+aside h1{
+   margin:0px 0px 8px 0px;
+   color: white;
+}
+.feedback_img{
+    height:250px;
+    width:350px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+h3:after {
+    display: block;
+    content: ' ';
+    background-color: pink;
+    width: 100px;
+    height: 3px;
+    margin: 30px auto;
+}
+article{
+    background-color:rgb(233, 221, 221);
+    
+    width: 40%;
+}
+article header{
+    display:flex;
+    flex-wrap:nowrap;
+}
+article h3{
+  
+  margin:30px 0px 0px 30px;
+  font-size: 35px;
+  font-weight: 100;
+}
+.subHead{
+    margin-top:20px;
+    font-size:15px;
+    text-align:center;
+    color: white;
+    
+}
+article img{
+    height:100px;
+    width:100px;
+    margin-left:10px;
+}
+
+.input-name input[type="text"]{
+    border:1px solid rgb(94, 94, 230) ;
+    background:transparent;
+    margin:0px 0px 0px 30px;
+}
+
+.input-name,.skills, .attitude, .leader {
+    margin: 40px 0px 0px 50px ;
+
+}
+
+header h3:after {
+    display: block;
+    content: ' ';
+    background-color:  rgb(94, 94, 230);
+    width: 100px;
+    height: 2px;
+    margin: 20px auto;
+}
+.skills  input[type="radio"]{
+    margin:0px 0px 0px 30px;
+}
+.attitude input[type="radio"]{
+    margin:0px 0px 0px 35px;
+}
+.leader input[type="radio"]{
+    margin:0px 0px 50px 30px;
+}
+.support label{
+   margin-left:45px;
+   font-size:20px;
+}
+.reviews{
+    display:flex;
+    margin:20px 0px 30px 20px;
+    
+}
+.great{
+    padding:10px;
+    border:1px solid rgb(94, 94, 230);
+    box-shadow:5px 5px 5px grey;
+    background: transparent;
+   margin:20px 20px 20px 50px;
+    width:100px;
+}
+
+.ok {
+    padding:10px;
+    border:1px solid rgb(94, 94, 230) ;
+    box-shadow:5px 5px 5px grey;
+    background: transparent;
+     margin:20px 20px 20px 0px;
+    width:100px;
+}
+
+.not_good {
+    padding:10px;
+    border:1px solid rgb(94, 94, 230);
+    box-shadow:5px 5px 5px grey;
+    background: transparent;
+    margin:20px 20px 20px 0px;
+    width:100px;
+}
+.great p, .ok p, .not_good p{
+    text-align:center;
+}
+.reviews input[type="radio"]{
+    margin:10px 0px 0px 30px;
+}
+
+.submit input {
+    background-color:rgb(94, 94, 230);
+    width: 70%;
+    height: 25px;
+    color: white;
+    margin: 20px;
+    margin-left: 70px;
+
+}
+

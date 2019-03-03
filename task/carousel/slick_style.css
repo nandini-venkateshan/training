@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px
+}
+main{
+    width:200px;
+    margin:200px 300px;
+}
+section{
+    display:flex;
+    overflow:hidden;
+    position:relative;
+}
+div img{
+    width:200px;
+    height:300px;
+     animation: slide 2s linear infinite; 
+}
+.fa-angle-left{
+font-size:40px;
+position:absolute;
+top:350px;
+left:250px;
+}
+.fa-angle-right{
+    font-size:40px;
+position:absolute;
+top:350px;
+left:550px;
+}
+@keyframes slide{
+    0%{
+      transform: translate(0, 0, 0);
+    }
+    100%{
+      transform: translate(-200px);
+    }
+  }

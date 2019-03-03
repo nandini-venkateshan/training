@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin:0px;
+            }
+          .nav{
+              display:flex;
+              background-color:black;
+              justify-content:space-between;
+              padding:15px 0px 15px 0px;
+          }
+          .navlt ul{ 
+              display:flex;
+              align-items:baseline;
+              justify-content:space-between;
+          }
+          .navlt ul li a{
+              text-decoration:none;
+              color:white;
+              paddi  ng:10px;
+             
+          }
+          .navlt ul li{
+            list-style-type: none;
+          
+          }
+          .para{
+               text-align:justify;
+            }
+        .div2{
+            background-color:lightgray;
+            min-height:100px;
+            padding:60px;
+        }
+        .div3{
+            min-height:100px;
+            padding:60px;
+            display:flex;
+            justify-content:space-around;
+        }
+        .para{
+            padding-right:35px;
+            line-height:25px;
+        }
+        
+        label{
+            font-size:50px;
+            font-weight:bold;
+            justify-content:space-around;
+        }
+        .navrt .text{
+                flex-grow:1;
+                background-color:white;
+                height:30px;
+                
+            }
+            .navrt .btns{
+                flex-basis:100px;
+                height:30px;
+            } 
+           nav .navrt{
+                diaplay:flex;
+            }
+            .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <div class="navlt">
+                <ul>
+                        <li style="font-size:20px;"><a href="">Navbar</a></li>               
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Disabled</a></li>
+                        <li class="dropdown"><a href="">Dropdown</a>
+                            <div class="dropdown-content">
+                              <ul>
+                                    <li>abc</li>
+                                <li>abc</li>
+                               <li>abc</li>
+                            </ul>
+                            </div>
+                           
+                        </li>
+                </ul>
+            </div>
+            <div class="navrt">
+                    <input class="text" type="text" placeholder="search">
+                    <button  class="btns">Search</button>
+            </div>
+        </div>
+        <div class="div2">
+            <label>Hello, world!</label>
+            <p style="padding:10px 10px 10px 0px;line-height:25px;font-size:18px;">This is a template for a simple marketing or informational website. 
+            It includes a large callout called a jumbotron and three supporting pieces of content.
+         Use it as a starting point to create something more unique.</p>
+         <button type="button" style="font-size:30px;border-radius:10px;background-color:#22A0D7;">Learn More</button>
+        </div>
+        <div class="div3">
+            <div class="subdiv1">
+                <h1 style="padding-bottom:5px;">Heading</h1>
+                <p class="para">Donec id elit non mi porta gravida at eget metus.
+                    sssss Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. 
+                    Donec sed odio dui. </p>
+                    <button style="font-size:20px;border-radius:10px;background-color:grey;margin-top:15px;">View Details</button>
+            </div>
+            <div class="subdiv2">
+                    <h1  style="padding-bottom:5px;">Heading</h1>
+                    <p class="para">Donec id elit non mi porta gravida at eget metus.
+                            sssss Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. 
+                            Donec sed odio dui. </p>
+                            <button style="font-size:20px;border-radius:10px;background-color:grey;margin-top:15px;">View Details</button>
+            </div>
+            <div class="subdiv3">
+                    <h1  style="padding-bottom:5px;">Heading</h1>
+                    <p class="para">Donec id elit non mi porta gravida at eget metus.
+                            sssss Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. 
+                            Donec sed odio dui. </p>
+                            <button style="font-size:20px;border-radius:10px;background-color:grey;margin-top:15px;">View Details</button>
+            </div>
+        </div>
+        <footer>
+        <hr style="width:1150px;margin:auto;">
+            <p style="padding:20px 0px 0px 60px;">© Company 2017-2018</p>
+        </footer>
+    </body>
+</html>
